@@ -1,7 +1,7 @@
 name: .NET
 on:
   push:
-    branches: [ development ]
+    branches: [ 2.x ]
 jobs:
   build:
     runs-on: windows-latest
